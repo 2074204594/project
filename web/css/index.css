@@ -1,0 +1,116 @@
+/* 页面初始化 */
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+img,
+input {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-size: 12px;
+  font-weight: normal;
+}
+em,
+i {
+  font-style: normal;
+}
+img {
+  display: block;
+  border: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  font-family: Microsoft yahei,Verdana,Arial,Microsoft Sans Serif;
+  outline-style: none;
+}
+textarea {
+  resize: none;
+  outline-style: none;
+  border: 0;
+}
+body {
+  font-size: 12px !important;
+  color: #666;
+  word-wrap: break-word;
+  font-family: Microsoft yahei,Verdana,Arial,Microsoft Sans Serif;
+}
+
+
+
+
+/* 头部 */
+
+.main{
+	margin-top: 20px;
+}
+
+/* 主体-导航 */
+.main .tab-content .tab-pane{
+	width: 50%;
+	margin: auto;
+	margin-top: 40px;
+}
+.main .tab-content .tab-pane button{
+	padding: 20px;
+	margin: 20px;
+}
+/* 主体_翻译 */
+.main .main_translate{
+	position: absolute;
+	margin-left: 20px;
+}
+
+/* 主体_我的词库 */
+.main  .main_nav .tab-content .tab-pane .my_content{
+	/* background-color: red; */
+}
+.main  .main_nav .tab-content .tab-pane .my_content .my_word{
+	width: 60%;
+	height: 500px;
+	display: inline-block;
+}
+.main  .main_nav .tab-content .tab-pane .my_content .my_word ul{
+	margin-top: 25px;
+	margin-left: 10px;
+}
+.main  .main_nav .tab-content .tab-pane .my_content .my_word li{
+	float: left;
+	font-size: 12pt;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.main  .main_nav .tab-content .tab-pane .my_content .my_detail{
+	width: 10%;
+	height: 250px;
+	display: inline-block;
+	position: absolute;
+	margin-left: 10px;
+}
+
+.btn_book{
+	width: 140px;
+	height: 115px;
+}

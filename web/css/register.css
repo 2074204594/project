@@ -1,0 +1,31 @@
+.register{
+	width: 700px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 10%;
+	border: 2px solid black;
+}
+.Tip{
+	color: red;
+}
+
+.register .text{
+	color: blue;
+	font-size: 18pt;
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 30px;
+}
+.register .form{
+	margin: auto 200px;
+	width: 70%;
+	height: 50%;
+}
+.register form{
+	margin-top: 20%;
+	font-size: 14pt;
+}
+.register form div{
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
